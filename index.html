@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Speed Game </title>
+    <!-- ! Icon -->
+    <link rel="shortcut icon" href="assets/icons/Web/icons8-hands-soft-fill-16.png" type="image/x-icon">
+    <!-- # Icon -->
+    <!-- ! Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;500;900&family=DynaPuff:wght@400;500;600;700&family=Noto+Sans+Mono:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <!-- # Google Fonts -->
+    <!-- ! FontAwesome -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- # FontAwesome -->
+    <!-- ! Normalize  -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- # Normalize  -->
+    <!-- ! Css Main Sheet -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- # Css Main Sheet -->
+</head>
+
+<body>
+    <div class="game-box">
+        <header>
+            <h1>Typing Game <span class="yang">&#9775;</span></h1>
+        </header>
+        <div class="container">
+            <div class="game-option">
+                <p>You are Playing ON
+                    <span class="level"></span> Level & You Have <span class="level-duration"></span>
+                    To Type The Word
+                </p>
+            </div>
+            <div class="start-btn">
+                <button id="start">Start Typing</button>
+            </div>
+            <div class="therandomword"></div>
+            <div class="input">
+                <input type="text" class="trace">
+            </div>
+            <div class="words"></div>
+            <div class="control">
+                <div class="time">
+                    <p>the Left : <span class="timer">0</span> Seconds</p>
+                </div>
+                <div class="points">
+                    <p>Score : <span class="points">0</span> From <span class="total-points">0</span></p>
+                </div>
+            </div>
+            <div class="finish ">
+                <div class="dark-layer"></div>
+                <div class="msg"></div>
+            </div>
+        </div>
+    </div>
+    <!-- !Script File -->
+    <script src="js/word.json"></script>
+    <script src="js/main.js"></script>
+    <!-- #Script File -->
+</body>
+
+</html>
